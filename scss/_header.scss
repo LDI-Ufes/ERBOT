@@ -1,0 +1,200 @@
+.erbot-navbar {
+
+	.container {
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.nav-menu {
+		width: 100%;
+
+		a:hover{
+			border-bottom: 1px solid $cor-principal;
+		}
+	
+	}
+
+	.nav-logo {
+		padding: 20px 0px 20px 20px;
+        
+        img{
+            height: 59px;
+        }
+		
+	}
+
+	.btn-menu {
+		padding: 10px 0;
+		margin-right: 20px;
+		box-shadow: none;
+		border: none;
+		background: none;
+		color: $cor-terciaria;
+		font-size: 14px;
+		cursor: pointer;
+	}
+
+	.menu-lista {
+		padding: 6px 0;
+		list-style: none;
+		margin: 0;
+		width: 100%;
+		display: none;
+		text-align: right;
+		border-top: 1px solid $borda;
+
+		&.menu-aberto {
+			display: block;
+		}
+
+		> li {
+			color: $cor-terciaria;
+			display: block;
+			position: relative;
+			padding: 12px 20px;
+			text-decoration: none;
+			transition-duration: 0.5s;
+			font-size: 14px;
+			border-bottom: 1px solid $borda;
+
+			a,
+			span {
+				color: $cor-terciaria;
+				padding: 0.15em;
+				cursor: pointer;
+			}
+		}
+
+		li .dropdown {
+			margin-top: 0.4rem;
+			position: relative;
+			flex-flow: column;
+			text-align: right;
+			display: none;
+
+			li {
+				line-height: 1.5em;
+				text-transform: none;
+				padding: 0.4rem 0;
+			}
+		}
+
+		li.submenu-ativo > ul {
+			display: block;
+		}
+	}
+}
+
+
+@media only screen and (min-width: 768px){
+	.erbot-navbar {
+
+		.nav-logo img{
+                height: 80px;
+		}
+	}
+}
+
+
+@media only screen and (min-width: 960px) {
+	.erbot-navbar {
+        padding: 24px 0;
+		.nav-logo img{
+                height: 80px;
+		}
+
+		.btn-menu {
+			display: none;
+		}
+
+		.nav-menu {
+			width: auto;
+		}
+
+		.menu-lista {
+			padding: 0;
+			box-shadow: none;
+			margin: 0;
+			margin-right: 32px;
+			display: flex;
+			border-top: none;
+
+			&.menu-aberto {
+				display: flex;
+			}
+
+			> li {
+                padding: 1.2rem 0.6rem;
+				border-bottom: none;
+			}
+
+			li .dropdown {
+                position: absolute;
+                right: 9999px;
+                width: 140px;
+				margin: 12px auto;
+				flex-flow: column;
+				display: block;
+				text-align: center;
+                padding: 6px 12px;
+                background: $branco;
+                border-radius: 6px;
+                border: 1px solid $borda;
+
+
+
+				li {
+					line-height: 1.5em;
+					text-transform: none;
+				}
+			}
+
+			li:hover > ul,
+			li.menu-ativo > ul,
+			li .dropdown:hover {
+                left: 50%;
+                transform: translateX(-50%);
+                right: 0;
+			}
+		}
+	}
+
+}
+
+
+@media only screen and (min-width: 1140px) {
+	
+	.erbot-navbar {
+		.nav-logo {
+			margin-left: 0px;
+			padding: 0;
+
+			img{
+				height: 120px;
+			}
+		}
+
+		.menu-lista {
+			margin-right: 20px;
+
+			> li{
+				font-size: 16px;
+			}		
+		}
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.erbot-navbar {
+		.nav-logo {
+			margin-left: 0px;
+		}
+
+		.menu-lista {
+			margin-right: 0px;
+		}
+	}
+}
