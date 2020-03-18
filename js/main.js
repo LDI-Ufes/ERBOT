@@ -41,3 +41,35 @@ btnSubmenu.forEach( (botao, index) =>{
     });
 
 });
+
+
+
+const btnAbas = document.querySelectorAll('#btn-abas li a');
+const progAbas = document.querySelectorAll('#programacao-tab .box');
+
+if(btnAbas.length === progAbas.length){
+
+btnAbas[0].classList.add('ativo');
+progAbas[0].classList.add('ativo');
+
+  btnAbas.forEach( (botao, index) => {
+    
+      botao.addEventListener('click', function(e){
+
+        e.preventDefault();
+        btnAbas.forEach( (botaoRemover, indexRemover) => {
+          
+          botaoRemover.classList.remove('ativo')
+          progAbas[indexRemover].classList.remove('ativo');
+          
+        });
+
+        botao.classList.add('ativo');
+        progAbas[index].classList.add('ativo');
+      });
+
+
+  });
+
+}
+

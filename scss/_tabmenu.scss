@@ -1,0 +1,238 @@
+#programacao-tab{
+
+    #btn-abas{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 24px;
+        border: 1px solid $rosa;
+    
+        li{
+            width: 100%;
+            text-align: center;
+            a{ 
+                padding: 0.6rem 0rem;
+                display: block;
+                width: 100%;
+                font-size: 14px;
+                color: $rosa;
+
+                &:hover{
+                    background: rgba(202, 64, 126, .16);
+                }
+    
+                &.ativo{
+                    background: $rosa;
+                    color: $branco;
+                    font-weight: $medium;
+
+                    &:hover{
+                        background: $rosa;
+                    }
+                }
+            }
+        }
+    }
+
+    .box{
+        width: 100%;
+        position: absolute;
+        display: none;
+
+        &.ativo{
+            position: relative;
+            display: flex;
+            flex-flow: column;
+        }
+
+        .programacao-item{
+            padding: 24px 0;
+            border-bottom: 1px solid $borda;
+
+            .horario{
+                display: inline-block;
+                margin-bottom: 12px;
+                font-size: 16px;
+                font-weight: $medium;
+                color: $preto;
+                min-width: 180px;
+                i{ margin-right: 6px;}
+
+                .far.fa-clock:before{
+                    @extend %fontAwesome;
+                    font-size: 16px;
+                    content: '\f017';
+                    color: $amarelo;
+                }
+            }
+
+            .informacoes{
+                h2{ 
+                    font-size: 18px; 
+                    color: $roxo;
+                    font-weight: $medium;
+                }
+
+                .ministrante{
+                    margin-top: 12px;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .fas.fa-user:before{
+                        content: '\f007';
+                        @extend %fontAwesome;
+                        font-size: 32px;
+                        margin-right: 8px;
+                        color: $amarelo;
+                    }
+
+                    h3{ 
+                        font-size: 14px; 
+                        flex-grow: 100%;
+                        font-weight: $medium;
+                        color: $preto;
+
+                        span{ 
+                            display: block;
+                            margin-top: 4px;
+                            font-size: 12px; 
+                            color: $marrom;
+                            font-weight: $medium;
+                        }
+                    }
+                }
+
+                > p{ display: none;}
+            }
+        }
+
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+
+    #programacao-tab{
+
+    #btn-abas{
+        margin-top: 36px;
+
+        li a{ font-size: 18px;}
+        
+    }
+
+    .box{
+
+        &.ativo{
+            flex-flow: flow;
+        }
+
+        .programacao-item{
+            display: flex;
+            padding: 24px;
+
+            .horario{
+                display: inline-block;
+                margin-bottom: 0;
+                font-size: 20px;
+
+                .far.fa-clock:before{
+                    font-size: 20px;       
+                }
+            }
+
+            .informacoes{ 
+                margin-left: 24px;
+
+                h2{font-size: 20px;}
+
+                .ministrante{
+                    margin-top: 12px;
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .fas.fa-user:before{
+                        font-size: 36px;
+                    }
+
+                    h3{ 
+                        font-size: 16px; 
+                        flex-grow: 100%;
+                        span{ font-size: 14px;}
+                    }
+                }
+
+                p{ margin-top: 12px; display: block;}
+            }
+        }
+
+    }
+ 
+    
+}
+
+
+}
+
+
+@media only screen and (min-width: 1140px){
+
+    #programacao-tab{
+
+        #btn-abas{
+            margin-top: 36px;
+    
+            li a{ font-size: 18px;}
+        }
+    
+        .box{
+    
+            &.ativo{
+                flex-flow: flow;
+            }
+    
+            .programacao-item{
+                display: flex;
+                padding: 36px 24px;
+    
+                .horario{
+                    display: inline-block;
+                    margin-bottom: 0;
+                    font-size: 20px;
+    
+                    .far.fa-clock:before{
+                        font-size: 20px;       
+                    }
+                }
+    
+                .informacoes{ 
+                    margin-left: 24px;
+    
+                    h2{font-size: 24px;}
+    
+                    .ministrante{
+                        margin-top: 24px;
+                        display: flex;
+                        flex-wrap: wrap;
+    
+                        h3{ 
+                            font-size: 16px; 
+                            flex-grow: 100%;
+                            span{ font-size: 14px;}
+                        }
+                    }
+    
+                    p{ margin-top: 24px; display: block;}
+                }
+            }
+    
+        }
+     
+        
+    }
+
+
+}
+
+
+
+
