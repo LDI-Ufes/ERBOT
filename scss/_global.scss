@@ -100,25 +100,41 @@ body {
 }
 
 .focus-visible {
-	box-shadow: 0 0 0 2px lighten($cor-principal, 20%);
+	box-shadow: 0 0 0 2px lighten($rosa, 20%);
+}
+
+h1{
+	color: $roxo;  
+	font-weight: $medium;
+}
+
+p{ line-height: 1.7; font-size: 14px;}
+
+.container{
+	padding: 0 20px;
 }
 
 
-@media only screen and (min-width: 864px) {
+@media only screen and (min-width: 768px){
+
+	h1{
+		font-size: 32px;
+	}
+
+	p{ font-size: 16px;}
 
 }
+
 
 @media only screen and (min-width: 1140px) {
-	h1,
-	h2,
-	h3 {
+	h1 {
 		font-size: 40px;
-		font-weight: 500;
 	}
+
+	p{ font-size: 18px;}
 
 	.container {
 		max-width: 1140px;
-		padding: 0 20px;
 		margin: 0 auto;
 	}
 }

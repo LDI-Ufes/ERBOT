@@ -12,7 +12,7 @@
 		width: 100%;
 
 		a:hover{
-			border-bottom: 1px solid $cor-principal;
+			border-bottom: 1px solid $rosa;
 		}
 	
 	}
@@ -32,7 +32,7 @@
 		box-shadow: none;
 		border: none;
 		background: none;
-		color: $cor-terciaria;
+		color: $marrom;
 		font-size: 14px;
 		cursor: pointer;
 	}
@@ -44,25 +44,25 @@
 		width: 100%;
 		display: none;
 		text-align: right;
-		border-top: 1px solid $borda;
+		border-top: 1px solid $roxo-claro;
 
 		&.menu-aberto {
 			display: block;
 		}
 
 		> li {
-			color: $cor-terciaria;
+			color: $marrom;
 			display: block;
 			position: relative;
 			padding: 12px 20px;
 			text-decoration: none;
 			transition-duration: 0.5s;
 			font-size: 14px;
-			border-bottom: 1px solid $borda;
+			border-bottom: 1px solid $roxo-claro;
 
 			a,
 			span {
-				color: $cor-terciaria;
+				color: $marrom;
 				padding: 0.15em;
 				cursor: pointer;
 			}
@@ -142,7 +142,7 @@
                 padding: 6px 12px;
                 background: $branco;
                 border-radius: 6px;
-                border: 1px solid $borda;
+                border: 1px solid $roxo-claro;
 
 
 
