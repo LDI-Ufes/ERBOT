@@ -1,0 +1,55 @@
+table{
+    box-sizing: border-box;
+    align-items: center;
+    margin: 36px auto;
+    width: 100%;
+    max-width: 800px;
+
+    td:first-child{
+        color: $roxo;
+    }
+
+
+    th, td{ 
+        font-size: 14px; 
+        font-weight: $medium;
+        text-align: center;
+        padding: 0.3rem 0.6rem;
+        border: 1px solid $roxo-claro;
+        color: $marrom;
+    }
+
+    th{
+        background: $roxo;
+        color: $branco;
+        font-weight: $medium;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px){
+
+    table{
+
+        th, td{ 
+            font-size: 16px; 
+            padding: 0.6rem;
+        }
+        
+    }
+
+}
+
+
+@media only screen and (min-width: 1140px){
+
+    table{
+
+        th, td{ 
+            font-size: 18px; 
+        }
+        
+    }
+
+}
