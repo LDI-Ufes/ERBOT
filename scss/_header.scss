@@ -1,7 +1,7 @@
 .erbot-navbar {
+	
 
 	.container {
-		padding: 0;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
@@ -18,7 +18,7 @@
 	}
 
 	.nav-logo {
-		padding: 20px 0px 20px 20px;
+		padding: 20px 0;
         
         img{
             height: 59px;
@@ -27,24 +27,52 @@
 	}
 
 	.btn-menu {
-		padding: 10px 0;
-		margin-right: 20px;
-		box-shadow: none;
+		height: 24px;
+		width: 32px;
 		border: none;
-		background: none;
-		color: $marrom;
-		font-size: 14px;
+		border-top: 3px solid $rosa;
 		cursor: pointer;
+		background: none;
+
+		span{
+			position: absolute;
+			right: 9999px;
+		}
+
+		&::after, &::before{
+			content: '';
+			display: block;
+			height: 3px;
+			width: 32px;
+			background: $rosa;
+			margin: 6px 0;
+			transition: .3s;
+		}
+
+		&.ativo{
+			border-top-color: transparent;
+			&::after{
+				margin-top: -9px;
+				transform: rotate(-45deg);
+				transition: transform .3s;
+			}
+			&::before{
+				transform: rotate(-135deg);
+			}
+
+		}
+
 	}
 
 	.menu-lista {
-		padding: 6px 0;
+		padding-left: 0;
 		list-style: none;
 		margin: 0;
 		width: 100%;
 		display: none;
 		text-align: right;
 		border-top: 1px solid $roxo-claro;
+		list-style: none;
 
 		&.menu-aberto {
 			display: block;
@@ -69,6 +97,7 @@
 		}
 
 		li .dropdown {
+			list-style: none;
 			margin-top: 0.4rem;
 			position: relative;
 			flex-flow: column;
@@ -91,6 +120,10 @@
 
 @media only screen and (min-width: 768px){
 	.erbot-navbar {
+
+		.container{
+			padding: 0 32px;
+		}
 
 		.nav-logo img{
                 height: 80px;
@@ -134,7 +167,7 @@
 			li .dropdown {
                 position: absolute;
                 right: 9999px;
-                width: 140px;
+                width: 180px;
 				margin: 12px auto;
 				flex-flow: column;
 				display: block;
@@ -157,7 +190,8 @@
 			li .dropdown:hover {
                 left: 50%;
                 transform: translateX(-50%);
-                right: 0;
+				right: 0;
+				z-index: 3;
 			}
 		}
 	}
@@ -173,7 +207,7 @@
 			padding: 0;
 
 			img{
-				height: 120px;
+				height: 110px;
 			}
 		}
 
@@ -182,6 +216,9 @@
 
 			> li{
 				font-size: 16px;
+				span{
+					font-size: 16px;
+				}
 			}		
 		}
 	}

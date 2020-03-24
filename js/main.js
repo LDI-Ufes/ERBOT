@@ -26,6 +26,7 @@ $(document).ready(function () {
 //
 
 $('.btn-menu').click(function() {
+  $(this).toggleClass('ativo');
   $(this).siblings('.nav-menu').children('.menu-lista').toggleClass('menu-aberto')
 })
 
