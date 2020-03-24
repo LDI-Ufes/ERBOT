@@ -1,9 +1,10 @@
 table{
     box-sizing: border-box;
     align-items: center;
-    margin: 36px auto;
+    margin: 12px auto 24px auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
+    border-collapse: collapse;
 
     td:first-child{
         color: $roxo;
@@ -39,6 +40,14 @@ table{
         
     }
 
+}
+
+@media only screen and (min-width: 960px){
+
+    table{
+        max-width: 800px;
+    }
+    
 }
 
 

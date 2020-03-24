@@ -10,6 +10,11 @@
         <td>R$ 395,00</td>
     </tr>
     <tr>
+        <td>Aposentado</td>
+        <td>R$ 300,00</td>
+        <td>R$ 313,00</td>
+    </tr>
+    <tr>
         <td>Pós-graduando</td>
         <td>R$ 270,00</td>
         <td>R$ 285,00</td>
