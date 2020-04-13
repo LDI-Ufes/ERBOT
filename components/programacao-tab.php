@@ -1,11 +1,11 @@
 <div id="programacao-tab">
 
         <ul id="btn-abas">
-            <li><a title="" href="#segunda">Segunda</a></li>
-            <li><a title="" href="#terca">Terça</a></li>
-            <li><a title="" href="#quarta">Quarta</a></li>
-            <li><a title="" href="#quinta">Quinta</a></li>
-            <li><a title="" href="#sexta">Sexta</a></li>
+            <li><a title="" href="#segunda"><span>Segunda</span> 00/00</a></li>
+            <li><a title="" href="#terca"><span>Terça</span> 00/00</a></li>
+            <li><a title="" href="#quarta"><span>Quarta</span> 00/00</a></li>
+            <li><a title="" href="#quinta"><span>Quinta</span> 00/00</a></li>
+            <li><a title="" href="#sexta"><span>Sexta</span> 00/00</a></li>
         </ul>
 
         <div class="box" id="segunda">

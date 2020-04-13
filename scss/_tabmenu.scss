@@ -12,11 +12,15 @@
             width: 100%;
             text-align: center;
             a{ 
-                padding: 0.6rem 0rem;
-                display: block;
+                padding: 0.8rem 0rem;
+                align-items: center;
+                justify-content: center;
+                display: flex;
                 font-size: 14px;
                 color: $rosa;
                 width: 100%;
+
+                span{display: none;}
 
                 &:hover{
                     background: rgba(202, 64, 126, .16);
@@ -26,6 +30,8 @@
                     background: $rosa;
                     color: $branco;
                     font-weight: $medium;
+
+                    span{font-weight: $medium;}
 
                     &:hover{
                         background: $rosa;
@@ -120,7 +126,14 @@
     #btn-abas{
         margin-top: 36px;
 
-        li a{ font-size: 18px;}
+        li a{ font-size: 18px;
+
+            span{
+                display: flex; 
+                font-size: 18px;
+                margin-right: 4px;
+            }
+        }
         
     }
 

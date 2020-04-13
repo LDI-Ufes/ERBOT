@@ -1,10 +1,16 @@
+.table{
+    overflow-x: auto;
+    margin: 12px auto;
+
 table{
     box-sizing: border-box;
     align-items: center;
-    margin: 12px auto 24px auto;
+    margin: 0 auto;
     width: 100%;
+    min-width: 440px;
     max-width: 600px;
     border-collapse: collapse;
+    overflow-x: scroll;
 
     td:first-child{
         color: $roxo;
@@ -15,7 +21,7 @@ table{
         font-size: 14px; 
         font-weight: $medium;
         text-align: center;
-        padding: 0.3rem 0.6rem;
+        padding: 0.6rem;
         border: 1px solid $roxo-claro;
         color: $marrom;
     }
@@ -28,31 +34,52 @@ table{
     
 }
 
+}
+
+.arrastar{
+    text-align: center;
+    display: block;
+    border: 1px solid $roxo-claro;
+    padding: 4px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    .fas.fa-arrow-circle-left::before{
+        content: '';
+    }
+}
+
 
 @media only screen and (min-width: 768px){
+    .table{
+        table{
 
-    table{
-
-        th, td{ 
-            font-size: 16px; 
-            padding: 0.6rem;
+            th, td{ 
+                font-size: 16px; 
+                padding: 0.6rem;
+            }
+            
         }
-        
+
     }
+
+    .arrastar{ display: none;}
 
 }
 
 @media only screen and (min-width: 960px){
-
+.table{
     table{
         max-width: 800px;
     }
+}
     
 }
 
 
 @media only screen and (min-width: 1140px){
-
+.table{
     table{
 
         th, td{ 
@@ -60,5 +87,6 @@ table{
         }
         
     }
+}
 
 }

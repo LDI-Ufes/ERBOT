@@ -1,3 +1,4 @@
+<div class="table">
 <table>
     <tr>
         <th>Faixa</th>
@@ -19,4 +20,7 @@
         <td class="preco">Acima de 30 inscrições</td>
         <td class="preco">20%</td>
     </tr>
-    </table>
+</table>
+</div>  
+
+<span class="arrastar"><i class="fas fa-arrow-circle-left"></i>Arraste para esquerda</span>

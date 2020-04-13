@@ -1,3 +1,4 @@
+<div class="table">
 <table>
     <tr>
         <th>Inscrição</th>
@@ -36,4 +37,7 @@
         <td>Estudante da Educação Básica</td>
         <td colspan="2">R$ 20,00</td>
     </tr>
-    </table>
+</table>
+</div>
+
+<span class="arrastar"><i class="fas fa-arrow-circle-left"></i>Arraste para esquerda</span>
