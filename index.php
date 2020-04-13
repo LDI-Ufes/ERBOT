@@ -3,10 +3,12 @@
 <main id="pagina-inicial">
 
 <div class="hero-banner">
-    <div>
+    <div class="container">
+        <div>
         <h1>12 à 15 de Julho</h1>
         <p>O 40º Encontro Regional de Botânica MG, BA, ES acontecerá na Sede da Universidade Federal do Espírito Santo</p>
         <a href="" class="btn">Realizar Inscrição</a>
+        </div>
     </div>
 </div>
 
@@ -29,7 +31,6 @@ A Comissão Organizadora está trabalhando para realizar um evento científico d
 </p>
 
 </div>
-
 </main>
 
 <?php include 'components/footer.php'; ?>

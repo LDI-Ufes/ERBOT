@@ -164,18 +164,36 @@
 				border-bottom: none;
 			}
 
+			.tem-submenu:hover .btn-drop, ul.dropdown:hover .btn-drop{
+				color: $rosa;
+			}
+
 			li .dropdown {
                 position: absolute;
                 right: 9999px;
                 width: 180px;
-				margin: 12px auto;
+				margin: 16px auto;
 				flex-flow: column;
 				display: block;
 				text-align: center;
-                padding: 6px 12px;
+                padding: 12px;
                 background: $branco;
                 border-radius: 6px;
-                border: 1px solid $roxo-claro;
+				border: 1px solid $roxo-claro;
+				
+				&::before{
+					content: '';
+					height: 16px;
+					width: 16px;
+					transform: rotate(-45deg);
+					position: absolute;
+					top: -9px;
+					left: 16px;
+					border-top-right-radius: 4px;
+					background: $branco;
+					border-right: 1px solid $roxo-claro;
+					border-top: 1px solid $roxo-claro;
+				}
 
 
 
@@ -188,8 +206,7 @@
 			li:hover > ul,
 			li.menu-ativo > ul,
 			li .dropdown:hover {
-                left: 50%;
-                transform: translateX(-50%);
+                left: 10px;
 				right: 0;
 				z-index: 3;
 			}
