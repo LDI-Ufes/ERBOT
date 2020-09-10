@@ -23,16 +23,8 @@
                     <li><a href="page-inscricao.php" title="">Inscrições</a></li>
                     </li>
                     <li><a href="page-programacao.php" title="">Programação</a></li>
-                    <li class="tem-submenu">
-                        <span class="btn-drop">Evento</span>
-                        <ul class="dropdown">
-                            <li><a href="page-local.php" title="">Local</a></li>
-                            <!-- <li><a href="" title="">Conheça o ES</a></li> -->
-                            <li><a href="page-organizacao.php" title="">Organização</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="page-organizacao.php" title="">Organização</a></li>
                     <li><a href="page-trabalhos-cientificos.php" title="">Trabalhos Científicos</a></li>
-                    <li><a href="page-contato.php" title="">Contato</a></li>
                 </ul>
             </nav>
         </div>

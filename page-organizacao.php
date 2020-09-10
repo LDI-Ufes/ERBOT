@@ -9,11 +9,32 @@
         <h1>Organização</h1>
 
         <h2>Comissão Organizadora</h2>
-        <p><strong>Presidente:</strong> Anderson Alves-Araújo – CEUNES/UFES</p>
-        <p><strong>Presidente:</strong> Karla Maria Pedra de Abreu – IFES/Alegre</p>
-        <p><strong>Presidente:</strong> Luciana Dias Thomaz – CCHN/UFES</p>
-        <p><strong>Presidente:</strong> Oberdan José Pereira – UFES</p>
-        <p><strong>Comissão de Tesouraria:</strong><br>Luciana Dias Thomaz – CCHN/UFES <br>Valquíria Ferreira Dutra – UFES</p>
+        <p>Anderson Alves-Araújo – CEUNES/UFES</br>
+        Karla Maria Pedra de Abreu – IFES/Alegre</br>
+        Luciana Dias Thomaz – CCHN/UFES</br>
+        Oberdan José Pereira – UFES</br>
+        Luciana Dias Thomaz – CCHN/UFES</br>
+        Valquíria Ferreira Dutra – UFES</p>
+
+        <h2>Comissão de Apoio:</h2>
+        <p>Alana Felipe Scheidegger de Aguiar</br>
+        Aline Delon Firmino</br>
+        Álvaro Nepomuceno</br>
+        Brenno Gardiman Sossai</br>
+        Gabriela Monjardim</br>
+        Hiago Lourenço da Silva</br>
+        Júlia Cristina Guarnier</br>
+        Karoliny Portes Alves</br>
+        Lucas Escalfoni</br>
+        Quélita dos Santos Moraes</br>
+        Renara Nichio Amaral</br>
+        Ricardo Magnago</br>
+        Rodrigo Theófilo Valadares</br>
+        Sabrina Vasconcelos Caram</br>
+        Sandrine Correia Dutra</br>
+        Victor Santos Miranda</br>
+        Vinicius de Castro Freitas</p>
+
 
         <h2>Diretoria Regional MG/BA/ES - Gestão 2020 - 2021</h2>
         <p><strong>Diretora:</strong> Valquíria Ferreira Dutra – Universidade Federal do Espírito Santo</p>

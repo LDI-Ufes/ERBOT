@@ -18,14 +18,14 @@
         <div>
             <h2>Realização</h2>
             <img src="img/footer/logo-UFES.png" alt="">
+            <img src="img/footer/Alegre.png" alt="">
         </div>
 
         <div>
             <h2>Apoio</h2>
             <img src="img/footer/logo-CAPES.png" alt="">
-            <img src="img/footer/logo-CAPES.png" alt="">
-            <img src="img/footer/logo-CAPES.png" alt="">
-            <img src="img/footer/logo-CAPES.png" alt="">
+            <img src="img/footer/Fapes.jpg" alt="">
+            <img src="img/footer/sead.svg" alt="">
        </div>
     </div>
     <div class="copyright">

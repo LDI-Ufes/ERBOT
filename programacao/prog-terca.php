@@ -1,21 +1,8 @@
 <div class="programacao-item">
-    <span class="horario"><i class="far fa-clock"></i>09:00 - 12:00</span>
+    <span class="horario"><i class="far fa-clock"></i>08:00 - 12:00</span>
     
     <div class="informacoes">
-    <h2>Minicurso - Espécies de plantas ameaçadas de extinção: Por que e como avaliar?</h2>
-
-        <div class="ministrante">
-            <i class="fas fa-user"></i>
-            <h3>Haissa de Abreu Caitano<br><span>Ministrante</span></h3>
-        </div>
-
-        <div class="ministrante">
-            <i class="fas fa-user"></i>
-            <h3>Ricardo da Silva Ribeiro<br><span>Ministrante</span></h3>
-        </div>
-
-    <p>Abordagem teórico-prática para avaliação do status de ameaça de plantas Neotropicais, utilizando os critérios da IUCN com adaptações.
-    </p>
+    <h2>Minicursos e Posters</h2>
     </div>
 </div>
 
@@ -28,19 +15,45 @@
 </div>
 
 <div class="programacao-item">
-    <span class="horario"><i class="far fa-clock"></i>14:00 - 18:00</span>
+    <span class="horario"><i class="far fa-clock"></i>14:00 - 15:00</span>
 
     <div class="informacoes">
-        <h2>(Continuação) Minicurso - Espécies de plantas ameaçadas de extinção: Por que e como avaliar?</h2>
-
+        <h2>Flora ameaçada de extinção do Espírito Santo (Palestra Magistral 1)</h2>
         <div class="ministrante">
             <i class="fas fa-user"></i>
-            <h3>Haissa de Abreu Caitano<br><span>Ministrante</span></h3>
+            <h3>Cláudio Nicoletti de Fraga (JBRJ) <br><span>Ministrante</span></h3>
         </div>
+    </div>
+</div>
 
+<div class="programacao-item">
+    <span class="horario"><i class="far fa-clock"></i>15:00 - 16:00</span>
+    
+    <div class="informacoes">
+        <h2>"Por que insetos visitam plantas? Conhecendo um pouco sobre a ecologia das interações entre insetos e plantas" (Mesa Redonda 3)</h2>
         <div class="ministrante">
             <i class="fas fa-user"></i>
-            <h3>Ricardo da Silva Ribeiro<br><span>Ministrante</span></h3>
+            <h3>Tathiana Guerra Sobrinho (UFES)<br><span>Coordenador</span></h3>
         </div>
+    </div>
+</div>
+
+<div class="programacao-item">
+    <span class="horario"><i class="far fa-clock"></i>16:00 - 17:00</span>
+    
+    <div class="informacoes">
+        <h2>"Experiências da Ead no ensino de Botânica" (Mesa Redonda 4)</h2>
+        <div class="ministrante">
+            <i class="fas fa-user"></i>
+            <h3>Luciana Dias Thomaz (UFES)<br><span>Coordenador</span></h3>
+        </div>
+    </div>
+</div>
+
+<div class="programacao-item">
+    <span class="horario"><i class="far fa-clock"></i>17:00 - 18:00</span>
+    
+    <div class="informacoes">
+        <h2>Apresentações Orais (3 e 4)</h2>
     </div>
 </div>
