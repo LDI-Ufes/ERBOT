@@ -14,7 +14,7 @@
         div{
             margin: 0;
             h1{font-size: 18px; text-align: center;}
-            p{ font-size: 12px; margin: 8px 0 12px 0; text-align: center;}
+            p{ font-size: 12px; margin: 8px 0 12px 0; text-align: center;}           
         }
 
         .btn{
@@ -22,6 +22,12 @@
         }
     }
 }
+
+p.assinatura{ 
+    text-align: right;
+    color: $roxo;
+    font-weight: $medium;
+ }
 
 @media only screen and (min-width: 768px){
 

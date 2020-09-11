@@ -18,13 +18,14 @@
 
             <nav class="nav-menu" role="navigation">
                 <ul class="menu-lista">
-                    <li><a href="index.php" title="">Início</a></li>
-                    <li><a href="page-planta-simbolo.php" title="">Planta Símbolo</a></li>
+                    <!-- <li><a href="index.php" title="">Início</a></li> -->
                     <li><a href="page-inscricao.php" title="">Inscrições</a></li>
-                    </li>
                     <li><a href="page-programacao.php" title="">Programação</a></li>
+                    <li><a href="page-minicursos.php" title="">Minicursos</a></li>
                     <li><a href="page-organizacao.php" title="">Organização</a></li>
+                    <li><a href="page-planta-simbolo.php" title="">Planta Símbolo</a></li>
                     <li><a href="page-trabalhos-cientificos.php" title="">Trabalhos Científicos</a></li>
+                    
                 </ul>
             </nav>
         </div>

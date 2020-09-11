@@ -5,10 +5,10 @@
 
         <div>
             <h2>Sociedade Brasileira de Botânica - Regional MG, BA, ES</h2>
-            <p>Sediado na Universidade Federal do Espírito Santo (UFES)</p>
+            <p>Sediado pela Universidade Federal do Espírito Santo (UFES)</p>
             <h2>Fale Conosco</h2>
             <p><strong>Email: </strong>40erbot@gmail.com</p>
-            <p><strong>Telefone: </strong>27 3333-3333</p>
+            <!-- <p><strong>Telefone: </strong>27 3333-3333</p> -->
         </div>
         <div>
             <h2>Promoção</h2>

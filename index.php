@@ -6,8 +6,9 @@
     <div class="container">
         <div>
         <h1>07 a 10 de Dezembro</h1>
-        <p>O 40º Encontro Regional de Botânica MG, BA, ES 
-acontecerá virtualmente e em segurança.</p>
+        <p>40º Encontro Regional de Botânicos e XI Jornada Capixaba de Botânica
+        <br/><strong>Diálogos sobre diversidade vegetal</strong>
+        </p>
         <a href="" class="btn">Realizar Inscrição</a>
         </div>
     </div>
@@ -23,6 +24,7 @@ A Universidade Federal do Espírito Santo, o Instituto Federal do Espírito Sant
 Esse ano, devido à excepcionalidade causada pela pandemia de COVID-19, não poderemos nos reunir aqui em Vitória, como era muito esperado pela Comissão Organizadora. Estaremos juntos, virtualmente e em segurança, em um evento que contará com uma programação diversificada, com a divulgação e discussão dos avanços da Botânica na pesquisa, no ensino e na extensão, apresentada principalmente pelos pesquisadores dos estados de Minas Gerais, Bahia e Espírito Santo.
 </p>
 
+<p class="assinatura">Comissão Organizadora</p>
 
 </div>
 </main>
