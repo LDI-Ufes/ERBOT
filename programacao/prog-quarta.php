@@ -18,7 +18,7 @@
     <span class="horario"><i class="far fa-clock"></i>14:00 - 15:00</span>
     
     <div class="informacoes">
-    <h2>Palestra Magistral 2 - Quando o corpo fala: o pólen na cena criminal</h2>
+    <h2>Palestra Magistral 2 - "Quando o corpo fala: o pólen na cena criminal"</h2>
     <div class="ministrante">
             <i class="fas fa-user"></i>
             <h3><span>Ministrante</span>Ariadne Barbosa Gonçalves (UFMS)</h3>

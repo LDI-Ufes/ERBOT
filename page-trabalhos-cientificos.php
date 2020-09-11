@@ -108,26 +108,26 @@
             <li><p>Na lista de Referências a literatura citada deve ter o espaçamento simples e recuo de 0,75 cm.</p></li>
             <li><p>Informe o DOI sempre que disponível.</p></li>
             <li><p>Para referências com até 6 autores, cite o nome de todos os autores. Quando houver mais de 7 autores, cite os 3 primeiros seguido por <i>et al.</i></p></li>
-            <li><p>Siga os seguintes exemplos:</p>
+            <li><p>Siga os seguintes exemplos:<br/><br/></p>
                 <p>
                     <strong>Livros:</strong><br/>
-                    Smith GM. 1938. Cryptogamic botany. Vol. II Bryophytes and Pteridophytes. 2nd. edn. New York, McGraw-Hill Book Company.
+                    Smith GM. 1938. Cryptogamic botany. Vol. II Bryophytes and Pteridophytes. 2nd. edn. New York, McGraw-Hill Book Company.<br/><br/>
                 </p>
                 <p>
                     <strong>Capítulos de livros:</strong><br/>
-                    Schupp EW, Feener DH. 1991. Phylogeny, lifeform, and habitat dependence of ant-defended plants in a Panamanian forest. In: Huxley CR, Cutler DC. (eds.) Ant-plant interactions. Oxford, Oxford University Press. p. 175-197.
+                    Schupp EW, Feener DH. 1991. Phylogeny, lifeform, and habitat dependence of ant-defended plants in a Panamanian forest. In: Huxley CR, Cutler DC. (eds.) Ant-plant interactions. Oxford, Oxford University Press. p. 175-197.<br/><br/>
                 </p>
                 <p>
                     <strong>Artigos:</strong><br/>
-                    Alves MF, Duarte MO, Oliveira PEAM, Sampaio DS. 2013. Self-sterility in the hexaploid <i>Handroanthus serratifolius</i> (Bignoniaceae), the national flower of Brazil. Acta Botanica Brasilica 27: 714-722 doi: 10.1590/0102-33062015abb3339.
+                    Alves MF, Duarte MO, Oliveira PEAM, Sampaio DS. 2013. Self-sterility in the hexaploid <i>Handroanthus serratifolius</i> (Bignoniaceae), the national flower of Brazil. Acta Botanica Brasilica 27: 714-722 doi: 10.1590/0102-33062015abb3339.<br/><br/>
                 </p>
                 <p>
                     <strong>Publicações apenas on-line:</strong><br/>
-                    Wolkovich EM, Cleland EE. 2014. Phenological niches and the future of invaded ecosystems with climate change. AoB Plants 6: plu013 doi:10.1093/aobpla/plu013.
+                    Wolkovich EM, Cleland EE. 2014. Phenological niches and the future of invaded ecosystems with climate change. AoB Plants 6: plu013 doi:10.1093/aobpla/plu013.<br/><br/>
                 </p>
                 <p>
                     <strong>Teses:</strong><br/>
-                    Souza D. 2014. Plant growth regulators. PhD or MSc Thesis, University, City.
+                    Souza D. 2014. Plant growth regulators. PhD or MSc Thesis, University, City.<br/><br/>
                 </p>
                 <p>
                     <strong>Websites:</strong><br/>

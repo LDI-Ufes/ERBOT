@@ -18,7 +18,7 @@
     <span class="horario"><i class="far fa-clock"></i>14:00 - 15:00</span>
 
     <div class="informacoes">
-        <h2>Palestra Magistral 1 - Flora ameaçada de extinção do Espírito Santo</h2>
+        <h2>Palestra Magistral 1 - "Flora ameaçada de extinção do Espírito Santo"</h2>
         <div class="ministrante">
             <i class="fas fa-user"></i>
             <h3><span>Ministrante</span>Cláudio Nicoletti de Fraga (JBRJ)</h3>
@@ -38,7 +38,7 @@
 
         <br/><br/>
 
-        <h2>Mesa Redonda 4 - "Experiências da Ead no ensino de Botânica"</h2>
+        <h2>Mesa Redonda 4 - "Experiências da EaD no ensino de Botânica"</h2>
         <div class="ministrante">
             <i class="fas fa-user"></i>
             <h3><span>Coordenadora</span>Luciana Dias Thomaz (UFES)</h3>
