@@ -1,7 +1,7 @@
 <?php include 'components/header.php'; ?>
 
 <section class="banner-page">
-    <img src="img/banners/b-inscricoes.jpg" alt="">
+    <img src="img/banners/b-minicursos.png" alt="">
 </section>
 
 <main class="">
@@ -26,7 +26,7 @@
             </table>
         </div>
 
-        <ul>
+        <ul class="mini-cursos">
             <li>
                 <h2>Liquenologia (10 vagas)</h2>
                 <p><strong>Carlos Vidigal</strong></p>

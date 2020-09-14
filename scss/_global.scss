@@ -188,13 +188,19 @@ ol, ul{
 	padding: 12px 6px;
 	background: $rosa;
 	color: $branco;
-	display: block;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	font-family: $medium;
-	font-size: 10px;
+	font-size: 12px;
 	text-transform: uppercase;
 	text-align: center;
-	max-width: 140px;
 	border-radius: 2px;
+
+	img{ 
+		height: 20px; 
+		padding: 4px 0;
+	}
 }
 
 
@@ -224,7 +230,6 @@ ol, ul{
 
 	.btn{
 		font-size: 14px;
-		min-width: 200px;
 		max-width: 300px;
 	}
 	
