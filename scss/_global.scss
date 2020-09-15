@@ -188,19 +188,33 @@ ol, ul{
 	padding: 12px 6px;
 	background: $rosa;
 	color: $branco;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	display: inline-block;
 	font-family: $medium;
 	font-size: 12px;
 	text-transform: uppercase;
 	text-align: center;
 	border-radius: 2px;
+	box-sizing: border-box;
 
 	img{ 
 		height: 20px; 
 		padding: 4px 0;
+		float: left;
+		margin-right: 8px;
 	}
+}
+
+.mini-cursos{
+    list-style: none;
+    padding-left: 0;
+    li{
+        margin-bottom: 2em;
+    }
+
+    h3{
+        font-size: 18px;
+        color: $roxo;
+    }
 }
 
 
@@ -230,8 +244,15 @@ ol, ul{
 
 	.btn{
 		font-size: 14px;
-		max-width: 300px;
+		max-width: auto;
 	}
+
+	
+.mini-cursos h3{
+        font-size: 22px;
+        color: $roxo;
+}
+
 	
 }
 

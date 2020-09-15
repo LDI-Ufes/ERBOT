@@ -49,6 +49,7 @@ footer{
             display: flex;
             flex-flow: column;
             align-items: center;
+            img{ height: 60px;}
         }
 
         div:nth-of-type(3){
@@ -136,7 +137,7 @@ footer{
             }
     
             div:nth-of-type(3){
-                margin-right: 72px;
+                margin-right: 48px;
                 &img:nth-of-type(3){
                     height: 24px;
                 }
@@ -166,6 +167,7 @@ footer{
     
     footer{
         .container{
+
             div:nth-of-type(1){
                 padding-left: 156px;
             }
