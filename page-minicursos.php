@@ -60,10 +60,12 @@
             <li>
                 <h2>Introdução ao estudo das briófitas: coleta, herborização e identificação (10 vagas)</h2>
                 <p><strong>Lorena Tereza da Penha Silva e Karoliny Portes Alves</strong></p>
+                <p>Nesse curso serão abordadas as principais características das briófitas, a coleta e a identificação dos grandes grupos.</p>
             </li>
             <li>
                 <h2>Morfologia de Leguminosae (10 vagas)</h2>
                 <p><strong>Lucas de Almeida Silva e Aline Pitol Chagas</strong></p>
+                <p>O objetivo desse curso é fornecer conhecimentos básicos sobre a família Leguminosae, com ênfase na morfologia e classificação dos grandes grupos.</p>
             </li>
         </ul>
     </div>

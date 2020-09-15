@@ -18,7 +18,14 @@
     <span class="horario"><i class="far fa-clock"></i>14:00 - 15:00</span>
 
     <div class="informacoes">
-        <h2>Palestra de Abertura</h2>
+        <h2>Cerimônia de abertura</h2>
+
+        <br/><br/>
+        <h2>Palestra de Abertura - "Distribuição geográfica e diversidade do maior clado de lianas neotropicais: tribo Bignonieae (Bignoniaceae)"</h2>
+        <div class="ministrante">
+            <i class="fas fa-user"></i>
+            <h3><span>Ministrante</span>Leila Meyer (UFMG)</h3>
+        </div>
     </div>
 </div>
 
@@ -37,7 +44,7 @@
         <h2>Mesa Redonda 2 - "Diversidade genética vegetal" </h2>
         <div class="ministrante">
             <i class="fas fa-user"></i>
-            <h3><span>Coordenador</span>Wellington Ronildo Clarindo</h3>
+            <h3><span>Coordenador</span>Wellington Ronildo Clarindo (UFV)</h3>
         </div>
     </div>
 </div>

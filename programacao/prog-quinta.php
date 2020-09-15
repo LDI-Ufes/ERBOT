@@ -3,6 +3,9 @@
 
     <div class="informacoes">
         <h2>Posters</h2>
+        <br /><br />
+
+        <h2>Reunião ACS Student Chapter</h2>
     </div>
 </div>
 
@@ -18,7 +21,11 @@
     <span class="horario"><i class="far fa-clock"></i>14:00 - 15:00</span>
 
     <div class="informacoes">
-        <h2>Palestra Magistral 3</h2>
+        <h2>Palestra Magistral 3 - "Redescobrindo a funga capixaba"</h2>
+        <div class="ministrante">
+            <i class="fas fa-user"></i>
+            <h3><span>Ministrante</span>Altielys Casale Magnago (UFES)</h3>
+        </div>
     </div>
 </div>
 
