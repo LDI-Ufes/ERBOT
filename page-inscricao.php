@@ -13,7 +13,7 @@
 
         <p>Para realizar a inscrição e pagamento, forneça os dados solicitados, insira o comprovante de matrícula (se estudante) no campo específico e, ao final, clique em enviar.</p>
 
-        <p style="text-align: center;"><a class="btn" href="https://forms.gle/dWKySca8qW23Yjey8" target="_blank">Formulário de inscrição</a></p>
+        <p style="text-align: center;"><a class="btn" href="https://www.even3.com.br/40erbot/" target="_blank">Formulário de inscrição</a></p>
 
         <h2>Sócios da SBB – Evento Gratuito</h2>
         <p>Apenas sócios quites com as anuidades poderão se inscrever na categoria associado. Para associados da SBB a anuidade de referência é <strong>2019</strong>. Regularize sua situação junto à <a href="www.botanica.org.br" target="_blank" title="Abrir site da SBB em nova aba">SBB</a> ou realize sua inscrição na categoria não sócio.</p>

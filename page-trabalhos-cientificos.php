@@ -71,7 +71,7 @@
             <li><p>Instituições de fomento devem constar no final do texto, entre parêntesis.</p></li>
         </ul>
 
-        <p><a class="btn" href="arquivos/Modelo-de resumo-simples.docx" target="_blank" title="Modelo de resumo simple"><img src="img/icon-download.svg"> Modelo de resumo simples</a></p> 
+        <p><a class="btn" href="arquivos/Modelo-de-resumo-simples.docx" target="_blank" title="Modelo de resumo simple"><img src="img/icon-download.svg"> Modelo de resumo simples</a></p> 
 
         <h2>Normas para a elaboração dos resumos expandidos</h2>
         <p>Fonte Times New Roman, tamanho 12, justificado, espaçamento entre linhas 1,5 linhas, parágrafo com recuo de 1,25 cm, margens de 25 mm e tamanho do papel A4 (210 x 297 mm), máximo 5 páginas (sem as referências bibliográficas).</p>
@@ -138,7 +138,7 @@
             </li>
         </ul>
 
-        <p><a class="btn" href="arquivos/Modelo-de resumo-expandido.docx" target="_blank" title="Modelo de resumo expandido"><img src="img/icon-download.svg"> Mod. de resumo expandido</a></p> 
+        <p><a class="btn" href="arquivos/Modelo-de-resumo-expandido.docx" target="_blank" title="Modelo de resumo expandido"><img src="img/icon-download.svg"> Mod. de resumo expandido</a></p> 
         
     </div>
 </main>

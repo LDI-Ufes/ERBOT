@@ -9,7 +9,7 @@
         <p>40º Encontro Regional de Botânicos e XI Jornada Capixaba de Botânica
         <br/><strong>Diálogos sobre diversidade vegetal</strong>
         </p>
-        <a href="" class="btn">Realizar Inscrição</a>
+        <a href="page-inscricao.php" class="btn">Realizar Inscrição</a>
         </div>
     </div>
 </div>
